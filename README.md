@@ -22,8 +22,8 @@ An API gateway is a server that acts as a “front-end” for an API. It receive
  ## Context
  Using an API gateway has the following benefits:
 ### Pros
->` ...Insulates the clients from how the application is partitioned into microservices..
-...Insulates the clients from the problem of determining the locations of service instances..
+>`Insulates the clients from how the application is partitioned into microservices.
+Insulates the clients from the problem of determining the locations of service instances.
 Provides the optimal API for each client
 Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
 Simplifies the client by moving logic for calling multiple services from the client to API gateway
